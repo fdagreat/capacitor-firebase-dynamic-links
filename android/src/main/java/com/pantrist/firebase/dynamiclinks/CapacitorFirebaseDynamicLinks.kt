@@ -4,12 +4,11 @@ import android.content.ContentValues
 import android.content.Intent
 import android.net.Uri
 import android.util.Log
-import com.getcapacitor.*
-import com.getcapacitor.annotation.CapacitorPlugin;
+import com.getcapacitor.NativePlugin
 import com.google.firebase.dynamiclinks.DynamicLink
 import com.google.firebase.dynamiclinks.FirebaseDynamicLinks
 
-@CapacitorPlugin
+@NativePlugin
 class CapacitorFirebaseDynamicLinks : Plugin() {
     @PluginMethod
     fun createDynamicLink(call: PluginCall) {
