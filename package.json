@@ -1,6 +1,6 @@
 {
-  "name": "@pantrist/capacitor-firebase-dynamic-links",
-  "version": "4.0.0",
+  "name": "@fdagreat/capacitor-firebase-dynamic-links",
+  "version": "1.0.0",
   "description": "Capacitor Plugin for Firebase Dynamic Links",
   "main": "dist/esm/index.js",
   "types": "dist/esm/index.d.ts",
@@ -13,7 +13,7 @@
     "format:check": "prettier --check src/**/*.ts",
     "docgen": "docgen --api CapacitorFirebaseDynamicLinksPlugin --output-readme README.md --output-json dist/docs.json"
   },
-  "author": "Nico Lueg (nicolueg@yahoo.de)",
+  "author": "Fredy Mgimba (fredgerman30@gmail.com)",
   "license": "MIT",
   "peerDependencies": {
     "@capacitor/core": "^4.0.0"
@@ -30,7 +30,7 @@
     "dist/",
     "ios/",
     "android/",
-    "PantristCapacitorFirebaseDynamicLinks.podspec"
+    "FdagreatCapacitorFirebaseDynamicLinks.podspec"
   ],
   "keywords": [
     "capacitor",
@@ -47,10 +47,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Pantrist-dev/capacitor-firebase-dynamic-links"
+    "url": "https://github.com/fdagreat/capacitor-firebase-dynamic-links"
   },
   "bugs": {
-    "url": "https://github.com/Pantrist-dev/capacitor-firebase-dynamic-links/issues"
+    "url": "https://github.com/fdagreat/capacitor-firebase-dynamic-links/issues"
   },
-  "homepage": "https://github.com/Pantrist-dev/capacitor-firebase-dynamic-links#readme"
+  "homepage": "https://github.com/fdagreat/capacitor-firebase-dynamic-links#readme"
 }

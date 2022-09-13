@@ -1,4 +1,4 @@
-package com.pantrist.firebase.dynamiclinks
+package com.fdagreat.firebase.dynamiclinks
 
 import android.content.ContentValues
 import android.content.Intent

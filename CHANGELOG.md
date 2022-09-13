@@ -34,4 +34,4 @@
 
 ### BREAKING CHANGES
 
-- Changes path of android code from `com.turnoutt.firebase.dynamiclinks` to `com.pantrist.firebase.dynamiclinks`
+- Changes path of android code from `com.pantrist.firebase.dynamiclinks` to `com.fdagreat.firebase.dynamiclinks`

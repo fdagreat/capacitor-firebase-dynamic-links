@@ -1,6 +1,6 @@
-# @pantrist/capacitor-firebase-dynamic-links
+# @fdagreat/capacitor-firebase-dynamic-links
 
-[![npm version](https://badge.fury.io/js/%40pantrist%2Fcapacitor-firebase-dynamic-links.svg)](https://badge.fury.io/js/%40pantrist%2Fcapacitor-firebase-dynamic-links)
+[![npm version](https://badge.fury.io/js/%40fdagreat%2Fcapacitor-firebase-dynamic-links.svg)](https://badge.fury.io/js/%40fdagreat%2Fcapacitor-firebase-dynamic-links)
 
 Capacitor plugin for [Firebase Dynamic Links](https://firebase.google.com/docs/dynamic-links)
 
@@ -11,7 +11,7 @@ Capacitor plugin for [Firebase Dynamic Links](https://firebase.google.com/docs/d
 In file `android/app/src/main/java/**/**/MainActivity.java`, add the plugin to the initialization list:
 
 ```java
-import com.pantrist.firebase.dynamiclinks.CapacitorFirebaseDynamicLinks;
+import com.fdagreat.firebase.dynamiclinks.CapacitorFirebaseDynamicLinks;
 
 public class MainActivity extends BridgeActivity {
    @Override
@@ -57,7 +57,7 @@ None
 import {
   FirebaseDynamicLinks,
   LinkConfig,
-} from '@pantrist/capacitor-firebase-dynamic-links';
+} from '@fdagreat/capacitor-firebase-dynamic-links';
 
 function createShortLink(): Promise<string> {
    const config: LinkConfig = {
