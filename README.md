@@ -33,7 +33,45 @@ For advanced options please refer https://firebase.google.com/docs/dynamic-links
 
 None
 
+<<<<<<< Updated upstream
 ## Methods
+=======
+## Example 
+
+```ts
+import {
+  FirebaseDynamicLinks,
+  LinkConfig,
+} from '@fdagreat/capacitor-firebase-dynamic-links';
+
+function createShortLink(): Promise<string> {
+   const config: LinkConfig = {
+      domainUriPrefix: 'https://example.page.link',
+      uri: 'https://example.page.link/sharing',
+   };
+   return FirebaseDynamicLinks.createShortLink(config).then(link => link.value);
+}
+
+function listenToDeepLinkOpen() {
+   FirebaseDynamicLinks.addListener('deepLinkOpen', (data) => {
+       console.log(data);
+   });
+}
+```
+
+
+## API
+
+<docgen-index>
+
+* [`addListener('deepLinkOpen', ...)`](#addlistenerdeeplinkopen)
+* [`removeAllListeners()`](#removealllisteners)
+* [`createDynamicLink(...)`](#createdynamiclink)
+* [`createDynamicShortLink(...)`](#createdynamicshortlink)
+* [Interfaces](#interfaces)
+
+</docgen-index>
+>>>>>>> Stashed changes
 
 ### addListener('deepLinkOpen', (data: { url: string })
 

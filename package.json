@@ -41,10 +41,21 @@
   },
   "repository": {
     "type": "git",
+<<<<<<< Updated upstream
     "url": "https://github.com/ClipboardHealth/capacitor-firebase-dynamic-links.git"
+=======
+    "url": "git+https://github.com/fdagreat/capacitor-firebase-dynamic-links.git"
+>>>>>>> Stashed changes
   },
   "bugs": {
     "url": "https://github.com/ClipboardHealth/capacitor-firebase-dynamic-links.git/issues"
   },
+<<<<<<< Updated upstream
   "homepage": "https://github.com/ClipboardHealth/capacitor-firebase-dynamic-links#readme"
+=======
+  "homepage": "https://github.com/fdagreat/capacitor-firebase-dynamic-links#readme",
+  "dependencies": {
+    "@capacitor/core": "^4.2.0"
+  }
+>>>>>>> Stashed changes
 }
